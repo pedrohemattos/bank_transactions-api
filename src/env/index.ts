@@ -14,4 +14,4 @@ if(envValidation.success === false) {
     throw new Error('Invalid environment variables ;(');
 }
 
-export const env = envValidation;
+export const env = envValidation.data;
